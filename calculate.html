@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<title>Калькултяор ремонта</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<!-- <style>body{opacity: 0;}</style> -->
+	<link rel="stylesheet" href="css/style.min.css?_v=20220825192249">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,500;0,600;0,700;1,300&display=swap&_v=20220825192249" rel="stylesheet">
+</head>
+
+<body>
+	<div class="wrapper">
+		<header data-scroll="50" class="header">
+			<div class="preloader">
+				<div class="preloader__inner">
+					<div class="preloader__img"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="logo"></picture></div>
+					<div class="lds-ring">
+						<div></div>
+						<div></div>
+						<div></div>
+						<div></div>
+					</div>
+				</div>
+			</div>
+			<div class="header__top top-header">
+				<div class="top-header__container">
+					<nav data-da=".header__mobile-menu, 991.98" class="top-header__nav">
+						<ul class="top-header__list">
+							<li class="top-header__item"><a href="" class="top-header__link">О компании</a></li>
+							<li class="top-header__item"><a href="" class="top-header__link">Условия оплаты</a></li>
+							<li class="top-header__item"><a href="" class="top-header__link">Доставка</a></li>
+						</ul>
+					</nav>
+					<div data-da=".bottom-header__actions_mobile, 991.98, first" data-spollers class="top-header__language language-top-header">
+						<div class="language-top-header__items">
+							<button type="button" data-spoller class="language-top-header__current">рус <span class="_icon-arrow"></span></button>
+							<ul class="language-top-header__select">
+								<li class="language-top-header__item"><a href="" class="language-top-header__link">укр</a></li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="header__body body-header">
+				<div class="body-header__container">
+					<a href="" class="body-header__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Логотип Piramida Market"></picture></a>
+					<div data-da=".header__mobile-menu, 650, first" class="body-header__seacrh seacrh-header">
+						<form action="#" class="seacrh-header__form">
+							<input type="text" name="" data-error="Error" placeholder="Что Вы ищите?" class="seacrh-header__input">
+							<button type="submit" class="seacrh-header__button">Найти</button>
+						</form>
+					</div>
+					<div class="body-header__call call-header">
+						<div class="call-header__title">Обратный звонок :</div>
+						<div data-spollers class="call-header__items">
+							<div class="call-header__item">
+								<a href="tel:0442008000" class="call-header__phone"><span>(044) 200-80-00</span></a>
+								<button type="button" data-spoller class="call-header__arrow _icon-arrow"></button>
+								<ul class="call-header__list">
+									<li><a href="tel:0442008001" class="call-header__phone">(044) 200-80-01</a></li>
+									<li><a href="tel:0442008002" class="call-header__phone">(044) 200-80-02</a></li>
+									<li><a href="tel:0442008003" class="call-header__phone">(044) 200-80-03</a></li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					<div data-da=".header__mobile-menu, 991.98" class="body-header__schedule schedule-header">
+						<div class="schedule-header__title">График работы:</div>
+						<div class="schedule-header__body">
+							пн-пт с 9:00 18:00<br>
+							сб с 9:00-17:00
+						</div>
+					</div>
+					<div data-da=".bottom-header__actions_mobile, 991.98" class="body-header__actions actions-header">
+						<a href="" class="actions-header__favorite actions-header__item favorite-header _icon-favorite"></a>
+						<div data-da=".body-header__actions, 991.98, first" class="actions-header__block">
+							<a href="" class="actions-header__cart actions-header__item cart-header _icon-cart"></a>
+							<div class="cart-header__body">
+								<ul class="cart-header__list cart-list">
+								</ul>
+								<div class="cart-header__actions">
+									<a href="" class="cart-header__order">ЗАКАЗАТЬ</a>
+									<a href="" class="cart-header__to-cart">В КОРЗИНУ <span class="_icon-two-arrows"></span></a>
+								</div>
+							</div>
+						</div>
+						<a href="" class="actions-header__profile actions-header__item _icon-profile"></a>
+					</div>
+				</div>
+			</div>
+			<div class="header__bottom bottom-header">
+				<div class="bottom-header__container">
+					<div class="bottom-header__actions_mobile">
+					</div>
+					<nav data-da=".header__mobile-menu, 991.98, first" class="bottom-header__nav">
+						<ul class="bottom-header__list">
+							<li class="bottom-header__item bottom-header__item_catalog"><a href="" class="bottom-header__link bottom-header__link_catalog"><img src="img/catalog_white.svg" alt="Каталог товаров"><span>Каталог товаров</span></a></li>
+							<li class="bottom-header__item"><a href="" class="bottom-header__link">Калькулятор ремонта</a></li>
+							<li class="bottom-header__item"><a href="" class="bottom-header__link">сезонные продукты</a></li>
+							<li class="bottom-header__item"><a href="" class="bottom-header__link">хиты продаж</a></li>
+							<li class="bottom-header__item"><a href="" class="bottom-header__link">Доставка</a></li>
+						</ul>
+					</nav>
+					<button type="button" class="menu__icon icon-menu"><span></span></button>
+				</div>
+			</div>
+			<div class="header__mobile-menu">
+			</div>
+		</header>
+		<main class="page page-calculate">
+			<div class="page-calculate__container">
+				<nav class="breadcrumbs">
+					<ul class="breadcrumbs__list">
+						<li class="breadcrumbs__item breadcrumbs__item_home"><a href="" class="breadcrumbs__link">Главная</a></li>
+						<li class="breadcrumbs__item breadcrumbs__item_current"><a href="" class="breadcrumbs__link">Калькултяор ремонта</a></li>
+					</ul>
+				</nav>
+				<h1 class="page-calculate__title title">Калькулятор ремонта</h1>
+				<p class="page-calculate__text text">Не следует, однако забывать, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития. </p>
+				<div class="page-calculate__img-ibg"><picture><source srcset="img/about/01.webp" type="image/webp"><img src="img/about/01.jpg" alt="calculate"></picture></div>
+				<div class="page-calculate__content content-calculate">
+					<form id="calculate-form" action="" class="calculate-form">
+						<div class="content-calculate__data data-calculate">
+							<div class="data-calculate__title">Данные</div>
+							<div class="data-calculate__section section-calculate">
+								<label class="section-calculate__label">
+									<span class="section-calculate__title">Площадь</span>
+									<input id="input-square" autocomplete="off" name="square" type="number" min="0" value="20" max="9999" class="section-calculate__input">
+									<span class="section-calculate__text section-calculate__text_square">м.2</span>
+								</label>
+							</div>
+							<div class="data-calculate__section section-calculate">
+								<span class="section-calculate__title">Тип</span>
+								<label class="section-calculate__label">
+									<input value="1" type="radio" checked name="type" class="section-calculate__input-radio">
+									<span class="section-calculate__text"><span class="_icon-flat icon-flat"></span>Квартира</span>
+								</label>
+								<label class="section-calculate__label">
+									<input value="1.2" type="radio" name="type" class="section-calculate__input-radio">
+									<span class="section-calculate__text"><span class="_icon-appartament icon-appartament"></span>Дом на земле</span>
+								</label>
+							</div>
+							<div class="data-calculate__section section-calculate">
+								<span class="section-calculate__title">Текущее состояние</span>
+								<label class="section-calculate__label">
+									<input value="1" type="radio" checked name="current-condition" class="section-calculate__input-radio">
+									<span class="section-calculate__text">Белый</span>
+								</label>
+								<label class="section-calculate__label">
+									<input value="1.1" type="radio" name="current-condition" class="section-calculate__input-radio">
+									<span class="section-calculate__text">Серый</span>
+								</label>
+							</div>
+							<div class="data-calculate__section section-calculate">
+								<span class="section-calculate__title">Желаемый результат</span>
+								<label class="section-calculate__label">
+									<input value="1" type="radio" checked name="result" class="section-calculate__input-radio">
+									<span class="section-calculate__text">Белый</span>
+								</label>
+								<label class="section-calculate__label">
+									<input value="1.3" type="radio" name="result" class="section-calculate__input-radio">
+									<span class="section-calculate__text">Финальный</span>
+								</label>
+							</div>
+							<div class="data-calculate__button button">Посчитать</div>
+						</div>
+						<div class="content-calculate__price price-calculate">
+							<div class="price-calculate__inner">
+								<p class="price-calculate__text">Для ремонта <span><span class="text-square">20</span> кв. метров</span> ориентировочная сумма затрат составит <span class="total-price">10 000</span> грн.</p>
+							</div>
+						</div>
+					</form>
+				</div>
+				<p class="page-calculate__text text">Не следует, однако забывать, что дальнейшее развитие различных форм деятельности обеспечивает широкому кругу (специалистов) участие в формировании системы обучения кадров, соответствует насущным потребностям. Значимость этих проблем настолько очевидна, что реализация намеченных плановых заданий в значительной степени обуславливает создание модели развития. </p>
+			</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__body body-footer">
+				<div class="body-footer__container">
+					<div class="body-footer__info info-footer">
+						<a href="" class="info-footer__logo"><picture><source srcset="img/logo.webp" type="image/webp"><img src="img/logo.png" alt="Logo"></picture></a>
+						<div class="info-footer__social-media social-media-footer">
+							<div class="social-media-footer__title">Следите за нами</div>
+							<ul class="social-media-footer__list">
+								<li class="social-media-footer__item">
+									<a href="" class="social-media-footer__link"><img src="img/socail-media/insta.svg" alt="insta"></a>
+								</li>
+								<li class="social-media-footer__item">
+									<a href="" class="social-media-footer__link"><img src="img/socail-media/twitter.svg" alt="twitter"></a>
+								</li>
+								<li class="social-media-footer__item">
+									<a href="" class="social-media-footer__link"><img src="img/socail-media/youtube.svg" alt="youtube"></a>
+								</li>
+								<li class="social-media-footer__item">
+									<a href="" class="social-media-footer__link"><img src="img/socail-media/twitter.svg" alt="twitter"></a>
+								</li>
+								<li class="social-media-footer__item">
+									<a href="" class="social-media-footer__link"><img src="img/socail-media/facebook.svg" alt="facebook"></a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="body-footer__content content-footer">
+						<div class="content-footer__item">
+							<div class="content-footer__title content-footer__title_nav">Каталог товаров</div>
+							<nav class="content-footer__nav">
+								<ul class="content-footer__list">
+									<li class="content-footer__li"><a href="" class="content-footer__link">Металообработка</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Обработка камня</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Обработка стекла</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Кузовной ремонт</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Кузовной ремонт</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="content-footer__item">
+							<div class="content-footer__title content-footer__title_nav">Каталог товаров</div>
+							<nav class="content-footer__nav">
+								<ul class="content-footer__list">
+									<li class="content-footer__li"><a href="" class="content-footer__link">Металообработка</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Обработка камня</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Обработка стекла</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Кузовной ремонт</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Кузовной ремонт</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div class="content-footer__item">
+							<div class="content-footer__title content-footer__title_nav">Каталог товаров</div>
+							<nav class="content-footer__nav">
+								<ul class="content-footer__list">
+									<li class="content-footer__li"><a href="" class="content-footer__link">Металообработка</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Обработка камня</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Обработка стекла</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Кузовной ремонт</a></li>
+									<li class="content-footer__li"><a href="" class="content-footer__link">Кузовной ремонт</a></li>
+								</ul>
+							</nav>
+						</div>
+						<div data-da=".body-footer__info, 700, first" class="content-footer__item">
+							<div class="content-footer__call call-footer">
+								<div class="call-footer__title">Обратный звонок :</div>
+								<div data-spollers class="call-footer__items">
+									<div class="call-footer__item">
+										<a href="tel:0442008000" class="call-footer__phone"><span>(044) 200-80-00</span></a>
+										<button type="button" data-spoller class="call-footer__arrow _icon-arrow"></button>
+										<ul class="call-footer__list">
+											<li><a href="tel:0442008001" class="call-footer__phone">(044) 200-80-01</a></li>
+											<li><a href="tel:0442008002" class="call-footer__phone">(044) 200-80-02</a></li>
+											<li><a href="tel:0442008003" class="call-footer__phone">(044) 200-80-03</a></li>
+										</ul>
+									</div>
+								</div>
+							</div>
+							<div class="content-footer__schedule schedule-footer">
+								<div class="schedule-footer__title">График работы:</div>
+								<div class="schedule-footer__body">
+									пн-пт с 9:00 18:00<br>
+									сб с 9:00-17:00
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="footer__bottom bottom-footer">
+				<div class="bottom-footer__container">
+					Piramida Market 2021 © Все права защищены
+				</div>
+			</div>
+			<script src="https://unpkg.com/imask?_v=20220825192249"></script>
+		</footer>
+	</div>
+	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<div class="popup__wrapper">
+		<div class="popup__content">
+			<button data-close type="button" class="popup__close">Закрыть</button>
+			<div class="popup__text">
+				Text
+			</div>
+		</div>
+	</div>
+</div> -->
+	<script src="js/app.min.js?_v=20220825192249"></script>
+</body>
+
+</html>
